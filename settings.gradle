@@ -1,0 +1,1 @@
+include ':niks-app', ':niks-details', ':niks-details-instantapp', ':niks-base'
