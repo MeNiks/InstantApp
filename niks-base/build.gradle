@@ -29,6 +29,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':niks-details')
+    application project(":niks-app")
+    feature project(':niks-details')
+    api "com.android.support:appcompat-v7:$supportLibVersion"
+    api 'com.android.support.constraint:constraint-layout:1.0.2'
 }
